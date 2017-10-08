@@ -1,0 +1,4 @@
+How is the staging area different from the working directoy and the repository?
+The working directory as well as the repository contains all files, while the staging area just contains the files to be followed.
+That reduces the amount of unneccessary copies.
+
