@@ -1,0 +1,31 @@
+Version Control
+
+How did viewing a diff between two versions of a file help you spot the bug?
+When I know that something wokred in a version before that큦 not working in a new version, I know that there must be a mistake in the changes I made.
+By getting showed all changes (differences) I made, I can detect issues much faster and make sure, that I큞l find ALL changes.
+
+How could having easy access to entire doc history make you a more efficient programmer?
+You can find out, how you solved problems in earlier versions.
+
+What do you think are the pros and cons of manually choosing, when to create a commit
+PROS
+flexibility
+you yourself know best, which changes are logically connected to eachother
+you can understand your history better
+CONS
+you could forget to do commits, when you are in a tunnel
+it can be hard for a sceond person to understand which logic you used creating commits
+
+Why do you think some version control systems allow saving files in one commit and others treat each seperately?
+Treating them in one commit makes a lot of sense in version controls made for programming.
+But it also leads to some "useless" savings without changes, so for common documents it큦 probably not neccessary.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows you all the commits that have been created during the project
+git diff shows you all the changes between two commits using the syntax: git diff old_id new_id
+
+How might using version control make you more confident to make changes that could break something?
+It큦 pretty easy to direct back to a working version, so it큦 no problem to create a new version with a bug
+
+How Do You want to use Git?
+creating a repository and some commits and switch between them on my own.
