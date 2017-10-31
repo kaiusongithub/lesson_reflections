@@ -17,3 +17,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 - I would share the files in a cloud server
 - It would make it easier to commit changes as they are automatically in the latest file
 - You wouldn´t be able to accept or decline changes as you´re not asked to pull changes
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+- When I´m not quite sure whether my changes will work or whether I want them to be in my master (or in a separate version)
+- Making them in a separate branch makes it easier, to maintain my master without being affected by the changes in the branch
+- But it makes it harder so merge the changes once I want them to be a part of my master
+- Making changes directly in my master makes sure, that my master always contains the new stuff
